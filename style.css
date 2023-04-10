@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 0.8;
+}
+
+p {
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.359);
+    padding: 3.5rem;
+    gap: 10px;
+    border-radius: 0.25rem;
+}
+
+label{
+    font-size: larger;
+    text-align: start;
+   
+}
+.text-form{
+    display: flex;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+  
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#radio-button input{
+    height: 1.0rem;
+    width: 5%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+button{
+    width: 100%;
+    height: 2.0rem;
+    font-size: large;
+    background: #37af65;
+    color: inherit;
+    border-radius: 5px  #37af65  ;
+    cursor: pointer;
+    border: none;
+}
